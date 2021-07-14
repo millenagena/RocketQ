@@ -1,10 +1,10 @@
 <!-- forms para entrar como participante -->
 <section>
     <h2>Crie sua própria sala</h2>
-    <form action="">
+    <form action="/create-room" method="POST">
         <!-- sr only eh para deixar a label invisível, porem acessível para leitores de sites -->
         <label class="sr-only" for="room-pass">Insira uma senha</label>
-        <input type="password" id="room-pass" placeholder="Insira uma senha">
+        <input type="password" name="password" id="room-pass" placeholder="Insira uma senha">
         <button>
             <img src="images/users-white.svg" alt="Entrar na sala">
             Criar sala
